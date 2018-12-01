@@ -1,53 +1,15 @@
 <html>
-  <head>
-    <title>力学小学の回忆·NanjingCpp</title>
-  </head>
-<style>
-.frame-header {
-position: fixed;
-top: 0;
-right: 0;
-left: 0;
-z-index: 11;
-min-width: 960px;
-height: 38px;
-border-top: 1px solid #333;
-border-bottom: 1px solid #333;
-background: #3B3B3B;
-_position: absolute;
-_width: 100%;
-}
-.frame-side {
-position: absolute;
-top: 40px;
-right: 0;
-bottom: 0;
-z-index: 2;
-width: 200px;
-border-left: 1px solid #DBDBDB;
-background: #F9F9F9;
-box-shadow: inset 2px 0 3px rgba(0, 0, 0, 0.05);
-_height: 100%;
-}
-.frame-contents {
-position: absolute;
-top: 40px;
-right: 201px;
-bottom: 0;
-left: 0;
-min-width: 760px;
-}
-.frame-contents iframe {
-position: absolute;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-width: 100%;
-height: 100%;
-}
-</style>
-  <body>
-    <h1>Hello</h1>
-  </body>
+   <head>
+     <title>Inter</title>
+      <meta charset="UTF-8" />
+         <title>Animation in HTML5 using the canvas element</title>
+    </head>
+   <body onload="init();">
+      <canvas id="canvas" width="1000" height="600">Your browser does not support the <code><canvas></code>-element.Please think about updating your brower!</canvas>
+      <div id="controls">
+         <button type="button" onclick="speed(-0.1);">Slower</button>
+         <button type="button" onclick="play(this);">Play</button>
+	 <button type="button" onclick="speed(+0.1)">Faster</button>
+      </div>
+   </body>
 </html>
